@@ -19,8 +19,6 @@ import org.springframework.web.bind.annotation.*;
 public class MathController {
 
 
-    @Autowired ArithmeticOperation arithmeticOperation;
-
     @PostMapping(value = "/divisione-info")
     @Tag(name = "matteo",description = "la mia prima api")
     @ApiOperation(value = "divisione info",httpMethod = "get")
